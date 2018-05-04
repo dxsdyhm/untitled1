@@ -29,6 +29,6 @@ def saveMessage(msg):
 def stopwechat(request):
     bot.logout()
     return HttpResponse('logout')
-
-bot.join()
+#
+# bot.join()
 
